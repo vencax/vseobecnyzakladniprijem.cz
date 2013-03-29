@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+article#post.post
+  h1= document.title
+  .post-content!= content
+  p pokus jak svon ss
+
+footer
+  if document.relatedDocuments && document.relatedDocuments.length
+    section#related
+      h3 Related Posts
+      nav.linklist
+        each doc in document.relatedDocuments
+          li
+            span= doc.date
+            |  &raquo;&nbsp;
+            a(href=doc.url)= doc.title
