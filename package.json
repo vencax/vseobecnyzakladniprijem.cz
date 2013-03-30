@@ -41,6 +41,7 @@
     "docpad-plugin-jade": "2.x",
     "docpad-plugin-related": "2.x",
     "docpad-plugin-sitemap": "0.2.0",
+    "docpad-plugin-addthis": "2.x",
     "marked": "*",
     "docpad-plugin-coffeekup": "~2.1.4"
   },
